@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Your Name - Portfolio</title>
+  
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+  
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css" />
+  
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+</head>
+<body>
+
+  <!-- Animation / Intro Section -->
+  <section class="intro-section d-flex justify-content-center align-items-center">
+    <div class="text-center intro-content">
+      <!-- <img src="images/some-animation.gif" alt="Intro Animation" class="intro-animation" /> -->
+      <h1 class="display-4 mt-4">Hi, I'm Rudransh</h1>
+      <p class="lead">A Developer | Quick Starter | Problem Solver</p>
+      <!-- <a href="#about" class="btn btn-custom mt-3">Explore</a> -->
+    </div>
+  </section>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark custom-navbar sticky-top">
+    <a class="navbar-brand" href="#">My Portfolio</a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-toggle="collapse"
+      data-target="#navbarNav"
+      aria-controls="navbarNav"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+        <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- About Section -->
+  <section id="about" class="container my-5">
+    <div class="row align-items-center">
+      <div class="col-md-4 text-center mb-4 mb-md-0">
+        <img src="me iit.jpg" class="img-fluid rounded-circle profile-pic" alt="Your Profile Picture" />
+      </div>
+      <div class="col-md-8">
+        <h2 class="section-heading">About Me</h2>
+        <p>
+          I am a self-driven, quick starter, and passionate programmer with a curious mind who enjoys solving complex and challenging real-world problems. I love to bring 100% to the work I do. I'm experienced with Python, HTML, CSS, JavaScript, and familiar with frameworks like Flask and PyTorch.
+        </p>
+        <p>
+          My interests include data science, web development, and creative problem-solving. I am always excited to learn new technologies and push my limits.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education Section -->
+  <section class="education-section py-5">
+    <div class="container">
+      <h2 class="section-heading mb-4">Education</h2>
+      <div class="row">
+        <div class="col-md-6 mb-4">
+          <div class="edu-card p-4 rounded">
+            <h4>Arizona State University</h4>
+            <p><strong>Degree:</strong> Master of Science in Computer Science</p>
+            <p><strong>CGPA:</strong> 4.0/4.0</p>
+            <p><strong>Relevant Coursework:</strong></p>
+            <ul>
+              <li>Distributed Database Systems</li>
+              <li>Cloud Computing</li>
+              <li>Foundations of Algorithms</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-6 mb-4">
+          <div class="edu-card p-4 rounded">
+            <h4>School of Engineering and Applied Science, Ahmedabad University</h4>
+            <p><strong>Degree:</strong> Bachelor of Technology in Information and Communication Technology</p>
+            <p><strong>CGPA:</strong> 3.13/4.33</p>
+            <p><strong>Relevant Coursework:</strong></p>
+            <ul>
+              <li>Data Structures and Algorithms</li>
+              <li>Database Management Systems</li>
+              <li>Operating Systems</li>
+              <li>Machine Learning</li>
+              <li>Computer Vision</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="container my-5">
+    <h2 class="section-heading mb-4">Projects</h2>
+    <div class="row">
+      <!-- Project 1 -->
+      <div class="col-md-4 mb-4">
+        <div class="card h-100 project-card">
+          <img src="https://via.placeholder.com/350x200" class="card-img-top" alt="Music Player Web-App" />
+          <div class="card-body">
+            <h5 class="card-title">Music Player Web-App</h5>
+            <p class="card-text">A music streaming web app based on Django.</p>
+          </div>
+        </div>
+      </div>
+      <!-- Project 2 -->
+      <div class="col-md-4 mb-4">
+        <div class="card h-100 project-card">
+          <img src="https://via.placeholder.com/350x200" class="card-img-top" alt="Quiz Web-App" />
+          <div class="card-body">
+            <h5 class="card-title">Quiz Web-App</h5>
+            <p class="card-text">A quiz playing web app based on Django.</p>
+          </div>
+        </div>
+      </div>
+      <!-- Project 3 -->
+      <div class="col-md-4 mb-4">
+        <div class="card h-100 project-card">
+          <img src="https://via.placeholder.com/350x200" class="card-img-top" alt="Blog Web-App" />
+          <div class="card-body">
+            <h5 class="card-title">Blog Web-App</h5>
+            <p class="card-text">A simple and extensible blog web app based on Flask.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="py-5 skills-section">
+    <div class="container">
+      <h2 class="section-heading mb-4">Skills</h2>
+      <div class="row">
+        <!-- Languages & Databases -->
+        <div class="col-md-4 mb-4">
+          <h4 class="sub-heading">Languages and Databases</h4>
+          <div class="d-flex flex-wrap align-items-center">
+            <!-- Python -->
+            <div class="skill-icon text-center m-2">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" class="icon-img" />
+              <p class="mt-2">Python</p>
+            </div>
+            <!-- HTML5 -->
+            <div class="skill-icon text-center m-2">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5" class="icon-img" />
+              <p class="mt-2">HTML5</p>
+            </div>
+            <!-- CSS3 -->
+            <div class="skill-icon text-center m-2">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3" class="icon-img" />
+              <p class="mt-2">CSS3</p>
+            </div>
+            <!-- JavaScript -->
+            <div class="skill-icon text-center m-2">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" class="icon-img" />
+              <p class="mt-2">JavaScript</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Libraries -->
+        <div class="col-md-4 mb-4">
+          <h4 class="sub-heading">Libraries</h4>
+          <div class="d-flex flex-wrap align-items-center">
+            <!-- Pandas -->
+            <div class="skill-icon text-center m-2">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" alt="Pandas" class="icon-img" />
+              <p class="mt-2">Pandas</p>
+            </div>
+            <!-- Matplotlib -->
+            <div class="skill-icon text-center m-2">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/8/84/Matplotlib_icon.svg" alt="Matplotlib" class="icon-img" />
+              <p class="mt-2">Matplotlib</p>
+            </div>
+            <!-- Seaborn -->
+            <div class="skill-icon text-center m-2">
+              <img src="https://seaborn.pydata.org/_images/logo-mark-lightbg.svg" alt="Seaborn" class="icon-img" />
+              <p class="mt-2">Seaborn</p>
+            </div>
+            <!-- scikit-learn -->
+            <div class="skill-icon text-center m-2">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="scikit-learn" class="icon-img" />
+              <p class="mt-2">scikit-learn</p>
+            </div>
+            <!-- NumPy -->
+            <div class="skill-icon text-center m-2">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" alt="NumPy" class="icon-img" />
+              <p class="mt-2">NumPy</p>
+            </div>
+  
+          </div>
+        </div>
+
+        <!-- Frameworks -->
+        <div class="col-md-4 mb-4">
+          <h4 class="sub-heading">Frameworks</h4>
+          <div class="d-flex flex-wrap align-items-center">
+            <!-- Flask -->
+            <div class="skill-icon text-center m-2">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg" alt="Flask" class="icon-img" />
+              <p class="mt-2">Flask</p>
+            </div>
+            <!-- PyTorch -->
+            <div class="skill-icon text-center m-2">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" alt="PyTorch" class="icon-img" />
+              <p class="mt-2">PyTorch</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="container my-5">
+    <h2 class="section-heading mb-4">Contact</h2>
+    <div class="row">
+      <div class="col-md-6 contact-info">
+        <p><i class="fas fa-phone"></i> +91 8765333740</p>
+        <p><i class="fas fa-envelope"></i> yourname@gmail.com</p>
+        <p><i class="fab fa-github"></i> github.com/yourprofile</p>
+        <p><i class="fab fa-linkedin"></i> linkedin.com/in/yourprofile</p>
+      </div>
+      <div class="col-md-6">
+        <form>
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" class="form-control" id="name" placeholder="Enter your name" />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" class="form-control" id="email" placeholder="Enter your email" />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea class="form-control" id="message" rows="3" placeholder="Your message"></textarea>
+          </div>
+          <button type="submit" class="btn btn-custom">Send</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer text-center py-3">
+    <p class="mb-0">&copy; 2025 Your Name. All rights reserved.</p>
+  </footer>
+
+  <!-- Bootstrap JS & Dependencies -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
